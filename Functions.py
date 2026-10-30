@@ -101,4 +101,6 @@ def reverse_list(list):
     result = []
     for i in range(4 , -1 , -1):
         result.append(list[i])
+    print(result)
+reverse_list([10 , 20 , 30 , 40 , 50])
     
